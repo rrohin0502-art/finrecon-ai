@@ -1,0 +1,7 @@
+category,item_id,source,date,counterparty,amount,currency,severity_or_status,description,action
+ANOMALY,ANOM-PHANTOM-9901,BANK,2026-10-14,UNKNOWN WIRE TRF NYC,-2450.00,USD,CRITICAL,Bank debit with NO corresponding invoice or PO in ERP,Verify with treasury or contact fraud ops
+ANOMALY,ANOM-DUP-4002,GATEWAY,2026-10-15,Sarah Jenkins,499.00,USD,HIGH,Potential duplicate charge within 90 seconds,Refund duplicate charge before chargeback
+ANOMALY,ANOM-FEE-7001,GATEWAY,2026-10-16,Quantum Dynamics,97.20,USD,HIGH,Gateway fee rate spike (8.10% vs 2.9% expected),Audit processor interchange statement and request credit
+ANOMALY,ANOM-AGE-0099,LEDGER,2026-09-01,Stale Legacy Client,8500.00,USD,MEDIUM,Ledger revenue unmatched for >30 days,Send collections notice or establish bad-debt allowance
+UNMATCHED_BANK,BNK-UNKNOWN,BANK,2026-10-14,UNKNOWN WIRE TRF NYC,-2450.00,USD,UNMATCHED,Unrecognized international wire debit,Awaiting manual ledger entry or dispute
+UNMATCHED_LEDGER,LDG-STALE,LEDGER,2026-09-01,Stale Legacy Client,8500.00,USD,UNMATCHED,Unpaid annual subscription invoice,Awaiting bank deposit or customer check

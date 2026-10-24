@@ -1,0 +1,13 @@
+transaction_id,created_at,customer_name,customer_email,gross_amount,fee,net_amount,currency,status,batch_reference
+ch_3M001,2026-10-01 14:20:00,Apex Enterprise,billing@apex.io,12500.00,0.00,12500.00,USD,paid,INV-2026-001
+ch_3M002,2026-10-03 10:15:00,BioTech Labs,accounts@biotech.org,8400.00,0.00,8400.00,USD,paid,INV-2026-002
+ch_3M005,2026-10-09 11:45:00,CyberCore Defense,finance@cybercore.com,5000.00,145.30,4854.70,USD,paid,ST-NET-5001
+ch_3M006,2026-10-11 16:30:00,Delta Financials,ap@deltafin.com,11500.00,333.50,11166.50,USD,paid,ST-NET-5002
+ch_3M401,2026-10-15 09:30:12,Sarah Jenkins,sjenkins@techgrowth.io,499.00,14.77,484.23,USD,paid,TXN-GTW-4001
+ch_3M402,2026-10-15 09:31:45,Sarah Jenkins,sjenkins@techgrowth.io,499.00,14.77,484.23,USD,paid,TXN-GTW-4002
+ch_3M701,2026-10-16 12:00:00,Quantum Dynamics,cfo@quantumdyn.com,1200.00,97.20,1102.80,USD,paid,TXN-GTW-7001
+ch_3MB01,2026-10-17 10:00:00,Echo Retail,ops@echoretail.com,5000.00,145.00,4855.00,USD,paid,BATCH-OCT-18
+ch_3MB02,2026-10-17 11:30:00,Falcon Systems,dev@falcon.io,6000.00,174.00,5826.00,USD,paid,BATCH-OCT-18
+ch_3MB03,2026-10-17 14:15:00,GigaScale Analytics,billing@gigascale.ai,4169.00,100.00,4069.00,USD,paid,BATCH-OCT-18
+ch_3M009,2026-10-19 18:00:00,HyperSpeed Media,pay@hyperspeed.net,2200.00,64.10,2135.90,USD,paid,TXN-GTW-9001
+ch_3M010,2026-10-23 15:10:00,InfraWave Networks,support@infrawave.org,3800.00,110.50,3689.50,USD,paid,TXN-GTW-9002

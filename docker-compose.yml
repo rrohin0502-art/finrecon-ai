@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  finrecon-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: finrecon-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - FINRECON_ENV=production
+      - FINRECON_PORT=8000
+    volumes:
+      - ./data:/app/data
+      - finrecon-storage:/app/storage_data
+    restart: unless-stopped
+
+volumes:
+  finrecon-storage:
+    driver: local

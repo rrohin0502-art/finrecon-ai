@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finrecon-ai"
+version = "1.0.0"
+description = "Autonomous Multi-Source Financial Reconciliation & Anomaly Intelligence Engine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "FinRecon Engineering Team", email = "engineering@finrecon.ai" }
+]
+keywords = ["finance", "reconciliation", "automation", "accounting", "fastapi", "anomaly-detection"]
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+    "pandas>=2.0.0",
+]
+
+[project.scripts]
+finrecon = "finrecon.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["finrecon*"]

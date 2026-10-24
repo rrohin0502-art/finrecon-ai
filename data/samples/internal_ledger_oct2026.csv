@@ -1,0 +1,13 @@
+entry_id,posting_date,account_code,account_name,counterparty,amount,currency,entry_type,reference_id
+GL-2026-001,2026-10-01,4000,Subscription Revenue,Apex Enterprise,12500.00,USD,CREDIT,INV-2026-001
+GL-2026-002,2026-10-03,4000,Subscription Revenue,BioTech Labs,8400.00,USD,CREDIT,INV-2026-002
+GL-2026-003,2026-10-05,4100,Professional Services,Acme Corporation,3450.00,USD,CREDIT,INV-2026-003
+GL-2026-004,2026-10-07,4100,Professional Services,Globex Logistics Inc,7200.00,USD,CREDIT,INV-2026-004
+GL-2026-005,2026-10-09,4000,Subscription Revenue,CyberCore Defense,5000.00,USD,CREDIT,INV-2026-005
+GL-2026-006,2026-10-11,4000,Subscription Revenue,Delta Financials,11500.00,USD,CREDIT,INV-2026-006
+GL-2026-007,2026-10-14,4000,Subscription Revenue,Chase Enterprise Client,18900.00,USD,CREDIT,INV-2026-007
+GL-2026-008,2026-10-17,4000,Subscription Revenue,Batch Customers Pooled,15169.00,USD,CREDIT,BATCH-OCT-18
+GL-2026-009,2026-10-19,6100,Cloud Hosting Expense,Google Cloud Platform,-3120.00,USD,DEBIT,INV-2026-009
+GL-2026-010,2026-10-21,6000,Payroll Expense,Zenefits Payroll Services,-28500.00,USD,DEBIT,INV-2026-010
+GL-2026-011,2026-10-23,6150,Software Subscriptions,Datadog Monitoring,-890.00,USD,DEBIT,INV-2026-011
+GL-2026-099,2026-09-01,4000,Subscription Revenue,Stale Legacy Client,8500.00,USD,CREDIT,INV-2026-099
